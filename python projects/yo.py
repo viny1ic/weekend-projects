@@ -1,0 +1,6 @@
+p = float(input("please input principle amount\n"))
+r = float(input("please input rate of interest\n"))
+t = float(input("please input the time period in years\n"))
+si = float((p*r*t)/100)
+si = str(si)
+print("the total amount is " +si)
