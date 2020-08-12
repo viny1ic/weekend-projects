@@ -4,8 +4,8 @@ from selenium.webdriver.common.keys import Keys
 
 
 # driver= webdriver.Chrome() #comment in this line if using windows
-driver = webdriver.Chrome(ChromeDriverManager().install())  # comment out this line if useing windows
-driver.get('https://web.whatsapp.com')  # comment out this line if useing windows
+driver = webdriver.Chrome(ChromeDriverManager().install())  # comment out this line if using windows
+driver.get('https://web.whatsapp.com')  # comment out this line if using windows
 
 
 contact=input('enter name of your contact: ')
